@@ -1,15 +1,11 @@
 # dart_vector_index
 
-[![Pub Version](https://img.shields.io/pub/v/dart_vector_index.svg?style=flat-square&color=blue)](https://pub.dev/packages/dart_vector_index)
-[![Pub Points](https://img.shields.io/pub/points/dart_vector_index?style=flat-square&color=2E8B57&label=pub%20points)](https://pub.dev/packages/dart_vector_index/score)
-[![Pub Likes](https://img.shields.io/pub/likes/dart_vector_index?style=flat-square)](https://pub.dev/packages/dart_vector_index)
-[![CI](https://github.com/govindtank/dart_vector_index/actions/workflows/ci.yml/badge.svg)](https://github.com/govindtank/dart_vector_index/actions)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
-
-Fast, zero-dependency, pure-Dart vector search and **HNSW** (Hierarchical Navigable Small World) index for on-device RAG (Retrieval Augmented Generation), semantic search, and AI embedding similarity on Flutter and Dart.
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/govindtank/dart_vector_index/main/screenshot.svg" width="750" alt="dart_vector_index architecture overview"/>
+  <a href="https://pub.dev/packages/dart_vector_index"><img src="https://img.shields.io/pub/v/dart_vector_index.svg?style=flat-square&color=blue" alt="Pub Version"></a>
+  <a href="https://pub.dev/packages/dart_vector_index/score"><img src="https://img.shields.io/pub/points/dart_vector_index?style=flat-square&color=2E8B57&label=pub%20points" alt="Pub Points"></a>
+  <a href="https://pub.dev/packages/dart_vector_index"><img src="https://img.shields.io/pub/likes/dart_vector_index?style=flat-square" alt="Pub Likes"></a>
+  <a href="https://github.com/govindtank/dart_vector_index/actions"><img src="https://github.com/govindtank/dart_vector_index/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square" alt="License"></a>
 </p>
 
 ---
