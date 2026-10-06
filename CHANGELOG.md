@@ -1,3 +1,8 @@
+## 1.0.1
+
+- **Batch Search Support:** Added `VectorStore.batchSearch()` for high-throughput batch nearest-neighbor queries across multiple embeddings simultaneously.
+- **Enhanced Test Suite:** Added unit test coverage for batch search execution and recall verification.
+
 ## 1.0.0
 
 - Initial stable release of `dart_vector_index`.

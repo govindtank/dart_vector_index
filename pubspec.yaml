@@ -1,6 +1,6 @@
 name: dart_vector_index
 description: Fast, pure-Dart vector search & HNSW index for on-device RAG, semantic search, and embeddings with Cosine, Euclidean, SQ8 quantization, and metadata filtering.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/govindtank/dart_vector_index
 homepage: https://github.com/govindtank/dart_vector_index
 issue_tracker: https://github.com/govindtank/dart_vector_index/issues

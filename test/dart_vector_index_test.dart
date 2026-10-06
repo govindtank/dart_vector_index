@@ -365,6 +365,15 @@ void main() {
       final results = store.similaritySearch([1.0, 0.1, 0.0], limit: 1);
       expect(results.first.id, equals('r1'));
       expect(results.first.metadata['title'], equals('Dart Vector Index'));
+
+      // Batch search test
+      final batchResults = store.batchSearch([
+        [1.0, 0.0, 0.0],
+        [0.0, 1.0, 0.0],
+      ], limit: 1);
+      expect(batchResults.length, equals(2));
+      expect(batchResults[0].first.id, equals('r1'));
+      expect(batchResults[1].first.id, equals('r2'));
     });
 
     test('Atomic file persistence roundtrip', () async {

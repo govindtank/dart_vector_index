@@ -150,6 +150,27 @@ class VectorStore {
     return search(query, limit: limit, filter: filter, minScore: minScore);
   }
 
+  /// Searches for nearest neighbors for multiple query vectors in batch.
+  List<List<SearchResult>> batchSearch(
+    List<List<num>> queries, {
+    int limit = 10,
+    MetadataFilter? filter,
+    double? minScore,
+    double? maxDistance,
+    bool includeVectors = false,
+  }) {
+    return queries
+        .map((q) => search(
+              q,
+              limit: limit,
+              filter: filter,
+              minScore: minScore,
+              maxDistance: maxDistance,
+              includeVectors: includeVectors,
+            ))
+        .toList();
+  }
+
   /// Serializes the entire vector store into a JSON string.
   String saveToJsonString({bool pretty = false}) {
     final q = _quantizer;
